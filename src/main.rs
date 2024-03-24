@@ -92,7 +92,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }).await;
 
     match create_collection_result {
-        Ok(_) => println!("Collection '{}' created successfully.", collection_name),
+        Ok(_) => println!("Collection '{}' was created.", collection_name),
         Err(e) => println!("Error creating collection '{}': {:?}", collection_name, e),
     }
 
