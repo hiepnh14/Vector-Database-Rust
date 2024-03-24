@@ -113,8 +113,8 @@ This project uses the following dependencies:
 ## Screenshots
 
 - Instance of Qdrant:
-![Qdrant Instance](/vectorDatabase/images/docker.png)
+![Qdrant Instance](/images/docker.png)
 
 - Query result visualization:
-![result](/vectorDatabase/images/terminalResult.png)
+![result](/images/terminalResult.png)
 
