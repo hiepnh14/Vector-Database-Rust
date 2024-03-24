@@ -1,0 +1,18 @@
+[package]
+name = "vectorDatabase"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+qdrant-client = "1.8.0"
+serde_json = "1.0.114"
+tokio = { version = "1.36.0", features = ["full"] }
+tonic = "0.11.0"
+rand = "0.8.4"
+
+
+prost = "0.11"
+reqwest = { version = "0.11", features = ["json"] }
